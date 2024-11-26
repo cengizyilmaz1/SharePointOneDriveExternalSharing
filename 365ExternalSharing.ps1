@@ -55,7 +55,7 @@ param (
         }
         return $true
     })]
-    [DateTime]$StartDate = ((Get-Date).AddDays(-5)).Date,
+    [DateTime]$StartDate = ((Get-Date).AddDays(-7)).Date,
 
     [Parameter(Mandatory = $false)]
     [ValidateScript({
